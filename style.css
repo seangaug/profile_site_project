@@ -14,9 +14,9 @@ nav ul {
     list-style: none;
 }
 
-/* li {
+li {
     list-style: none;
-} */
+}
 
 a {
     color: white;
@@ -70,4 +70,26 @@ footer {
     width: 100%;
     padding: 0;
     text-align: center;
+}
+
+#bio-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.bio-facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.profile-picture {
+    border-radius: 100%;
+}
+
+.personal-facts {
+    text-align: center;
+    padding: 0;
 }
